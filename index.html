@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music_collection</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <script defer src="client.js"></script>
+</head>
+
+
+<body>
+<h1>My personal Music collection</h1>
+
+    <form>
+ 
+        <input id="ArtistIdField" type="text" name="ArtistId" placeholder="ArtistId">
+        <input type="text" name="Name" placeholder="Artist Name">
+        <input type="text" name="Title" placeholder="Album">
+        
+        <button id="AddBtn">Add</button>
+    </form>
+
+    <table id="tableHeader"><tr><th>Artist ID</th><th>Artist Name</th><th>Album Title</th><th class="albumIdHidden">Album Id</th></tr></table>
+
+    <table class="musicTableContainer"></table>
+
+
+
+    
+</body>
+<footer>Bg image credits:<a href="https://www.freepik.com/free-vector/musical-pentagram-sound-waves-notes-background_18786659.htm#query=music&position=0&from_view=keyword">Image by starline</a> on Freepik</footer>
+</html>

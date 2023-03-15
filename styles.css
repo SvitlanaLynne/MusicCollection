@@ -1,0 +1,106 @@
+.albumIdHidden
+{
+    display: none;
+}
+
+
+body
+{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1rem;
+
+    background-image: url('Bg_image_music.png');
+    background-size: 110vh;
+    background-position: top;
+
+    background-repeat: no-repeat;
+}
+
+h1
+{
+    text-align: center;
+}
+
+form
+{   
+    width: 80vh;
+    display: flex;
+    margin: auto;
+}
+
+input
+{
+    width: 50%;
+    font-size: 1rem;
+    border: none;
+    box-shadow: inset 3px 3px 3px rgb(240, 239, 239);
+}
+
+
+#ArtistIdField
+{
+    max-width: 5%;
+}
+
+
+#AddBtn
+{
+    background-color: rgb(178, 111, 200);
+    color: rgb(246, 246, 246);
+}
+
+
+
+input:focus
+{
+    background-color: rgb(249, 249, 206);
+}
+
+
+#tableHeader
+{
+    background-color: rgb(243, 227, 84);
+    width: 80vh;
+    height: 60px;
+    text-align: left;
+}
+
+table
+{   
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80vh;
+    margin: auto;
+}
+
+.artistIdNumber
+
+{
+    width: 5%;
+}
+
+
+button
+{
+    width: 80px;
+    height: 40px;
+    border: none;
+    font-size: 1rem;
+}
+
+.delBtns
+{
+    background-color: rgb(224, 79, 79);
+    
+    font-size: 1rem;
+    color: rgb(245, 244, 244)
+}
+
+
+footer
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    text-align: center;
+    color: darkgrey;
+    margin-top: 80px;
+}
